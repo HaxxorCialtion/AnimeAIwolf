@@ -30,8 +30,8 @@ The core configuration file is `config.py`. You need to modify various configura
    - Visit: [https://cloud.siliconflow.cn/i/vKgMJi1F](https://cloud.siliconflow.cn/i/vKgMJi1F)
    - Get your API Key
 2. **Configure API Key**
-   - Find the `0. Quick Start` section in `config.py`
-   - Enter your SiliconFlow API Key in `siliconflow_api_key`
+   - Find the `SILICONFLOW_API_KEY` section in `.env.example`
+   - Replace your SiliconFlow API Key in `your_api_key_here`
 3. **Launch Program**
    - Double-click `启动.bat` (Launch.bat)
    - Open `http://localhost:5000` in your browser

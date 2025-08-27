@@ -30,8 +30,8 @@ AnimeAIwolf 是一个基于大语言模型（LLM）和文本转语音（TTS）�
    - 访问链接：[https://cloud.siliconflow.cn/i/vKgMJi1F](https://cloud.siliconflow.cn/i/vKgMJi1F)
    - 获取您的 API Key
 2. **配置 API Key**
-   - 在 `config.py` 中找到 `0.快速启动` 部分
-   - 将您的硅基流动 API Key 填入 `siliconflow_api_key`
+   - 在 `.env.example` 中找到 `SILICONFLOW_API_KEY`
+   - 将您的硅基流动 API Key 替换 `your_api_key_here`
 3. **启动程序**
    - 双击 `启动.bat`
    - 在浏览器中输入 `http://localhost:5000`
