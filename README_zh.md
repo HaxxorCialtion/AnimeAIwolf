@@ -116,7 +116,7 @@ AnimeAIwolf 是一个基于大语言模型（LLM）和文本转语音（TTS）�
 
 ### 七、联系我们
 如遇到 Bug 或需要技术支持，可通过以下方式联系：
-- **📧 邮箱**：cialtion737410@sjtu.edu.cn
+- **📧 邮箱**：cialtion737410@sjtu.edu.cn & cialtion@outlook.com
 - **📺 Bilibili**：https://www.bilibili.com/video/BV1MVemzUE9r
 - **💬 QQ群**：暂未开放
 

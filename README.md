@@ -116,7 +116,7 @@ The core configuration file is `config.py`. You need to modify various configura
 
 ### 7. Contact Us
 For bugs or technical support, contact us through:
-- **📧 Email**: cialtion737410@sjtu.edu.cn
+- **📧 Email**: cialtion737410@sjtu.edu.cn & cialtion@outlook.com
 - **📺 Bilibili**: https://www.bilibili.com/video/BV1MVemzUE9r
 - **💬 QQ Group**: Not yet available
 
