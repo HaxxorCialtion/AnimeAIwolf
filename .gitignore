@@ -1,0 +1,17 @@
+#历史记录
+
+llm_calls.jsonl
+siliconflow_voices.json
+games
+
+#API_KEY
+
+.env
+
+#虚拟环境
+
+.conda
+
+#缓存
+
+__pycache__

@@ -1,7 +1,24 @@
 # config.py
 
 # 0. 快速启动（整合包）：
+
+import os
+import shutil
 siliconflow_api_key = ""
+
+if not os.path.exists(".env"):
+    shutil.copy(".env.example", ".env")
+
+with open(".env", "r", encoding="utf-8") as f:
+    for line in f:
+        line = line.strip()
+        if line and not line.startswith("#"):
+            key_value = line.split("=", 1)
+            if len(key_value) == 2:
+                key, value = key_value
+                if key.strip() == "SILICONFLOW_API_KEY":
+                    siliconflow_api_key = value.strip().strip("\"'")  # 去除引号
+
 # ==============================================================================
 # 1. 游戏核心配置
 # ==============================================================================
